@@ -5,6 +5,13 @@ html {
   font-family: 'Quicksand';
   line-height: 1.4;
 }
+#Top_info_card {
+  color: #fff;
+  font-size: 26px;
+  font-family: 'Quicksand';
+  background-color: #222;
+}
+
 
 /*
  * Remove text-shadow in selection highlight:
