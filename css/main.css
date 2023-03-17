@@ -10,8 +10,13 @@ html {
   font-size: 26px;
   font-family: 'Quicksand';
   background-color: #222;
+  text-align: center;
 }
-
+#HEADING {
+  color: #fff;
+  font-size: 40px;
+  font-family: 'Quicksand';
+}
 
 /*
  * Remove text-shadow in selection highlight:
