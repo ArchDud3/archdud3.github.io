@@ -17,6 +17,17 @@ html {
   font-size: 40px;
   font-family: 'Quicksand';
 }
+#Github {
+  color: #fff;
+  border-radius: 25px;
+  background: #222;
+  padding: 20px;
+  width: 200px;
+  height: 150px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 /*
  * Remove text-shadow in selection highlight:
@@ -29,19 +40,14 @@ html {
  */
 
 ::-moz-selection {
-  background: #b3d4fc;
+  background: #ff6969;
   text-shadow: none;
 }
 
 ::selection {
-  background: #b3d4fc;
+  background: #ff6969;
   text-shadow: none;
 }
-
-/*
- * A better looking default horizontal rule
- */
-
 hr {
   display: block;
   height: 1px;
