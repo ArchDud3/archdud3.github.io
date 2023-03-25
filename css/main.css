@@ -27,6 +27,9 @@ html {
   align-items: center;
   justify-content: center;
 }
+a {
+  color: #fff;
+}
 
 /*
  * Remove text-shadow in selection highlight:
