@@ -6,6 +6,9 @@ body {
     font-family: Tahoma, Verdana, sans-serif;
     
 }
+h1, h3 {
+    text-aligm: center;
+}
 
 .quote {
     text-size: 12px;
