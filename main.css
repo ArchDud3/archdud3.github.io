@@ -1,9 +1,17 @@
 body {
-    color: #212121;
+    --lightmodecolor: #212121;
+    --darkmodecolor: #ffffff;
+    --lightmodebackground: #ffffff;
+    --darkmodebackground: #212121;
     font-family: Tahoma, Verdana, sans-serif;
-    text-align: center;
+    
 }
 
 .quote {
     text-size: 12px;
+    text-align: center;
+}
+
+.center {
+    text-align: center;
 }
