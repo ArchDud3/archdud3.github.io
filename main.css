@@ -1,13 +1,13 @@
 body {
     --lightmodecolor: #212121;
-    --darkmodecolor: #ffffff;
-    --lightmodebackground: #ffffff;
+    --darkmodecolor: #fff;
+    --lightmodebackground: #fff;
     --darkmodebackground: #212121;
     font-family: Tahoma, Verdana, sans-serif;
     
 }
 h1, h3 {
-    text-aligm: center;
+    text-align: center;
 }
 
 .quote {
