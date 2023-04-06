@@ -11,10 +11,15 @@ h1, h3 {
 }
 
 .quote {
-    text-size: 12px;
     text-align: center;
 }
 
 .center {
     text-align: center;
+}
+
+.developer-index {
+    padding-right: 30px;
+    padding-left: 30px;
+    text-align: left;
 }
