@@ -1,1 +1,1 @@
-console.log('You are a monkey - big black breadator')
+console.error("CRITICAL ERROR: You are on archdud3.github.io")
