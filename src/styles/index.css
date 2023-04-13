@@ -49,12 +49,13 @@ nav {
     transition-timing-function: ease-in-out;
     transition-delay: 0s;
     z-index: 2;
-    padding: 10px 15px;
+    padding: 8px 11px;
     background-color: #222;
     color: #eee !important;
     text-decoration: none !important;
     text-align: center;
     display: inline-block;
+    font-size: 18px;
 }
 
 a:link {
