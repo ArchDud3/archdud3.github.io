@@ -31,10 +31,10 @@ header {
     overflow: hidden;
     text-align: center;
     flex-direction:column;
-    align-items:center
+    align-items:center;
+    border-bottom: 4px solid #fff;
      
 }
-
 .nav-item {
     background-color: #212121;
     border: 4px solid #fff;

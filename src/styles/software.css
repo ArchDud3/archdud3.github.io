@@ -31,7 +31,8 @@ header {
     overflow: hidden;
     text-align: center;
     flex-direction:column;
-    align-items:center
+    align-items:center;
+    border-bottom: 4px solid #fff;
      
 }
 
