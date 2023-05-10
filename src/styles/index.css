@@ -9,6 +9,7 @@ body {
     text-align: center;
     padding-left: 10%;
     padding-right: 10%;
+    border-color: #fff;
 }
 
 h1 {
@@ -31,7 +32,7 @@ h1 {
 
 nav {
     font-family: 'Cousine';
-    font-size: 22px;    
+    font-size: 1.2vw;    
     color: #fff;
     display: flex, inline;
     position: relative;
@@ -45,7 +46,7 @@ nav {
 .nav-item {
     background-color: #212121;
     border: 4px solid #fff;
-    border: 5px solid #eee;
+    border: 5px solid #fff;
     transition-property: all;
     transition-duration: 1s;
     transition-timing-function: ease-in-out;
@@ -63,7 +64,7 @@ nav {
 .nav-item:hover {
     background-color: #212121;
     border: 4px solid #fff;
-    border: 5px solid #eee;
+    border: 5px solid #ffffff;
     transition-property: all;
     transition-duration: 1s;
     transition-timing-function: ease-in-out;
@@ -108,12 +109,12 @@ a:active {
     transition: 5s;
 }
 #about > a > i {
-    font-size: 30px;
+    font-size: 1vw;
     color: #fff
 }
 #about > a:link, #about > a:visited, #about > a:active {
     color: #fff;
-    font-size: 30px;
+    font-size: 1vw;
     text-decoration: none;
 }
 #work-1 {
@@ -163,7 +164,7 @@ h6 {
 }
 .disclaimer {
     color: #acacac;
-    font-size: 10px;
+    font-size: 0.6vw;
 }
 #work-3 {
     display: flex;
@@ -187,9 +188,18 @@ footer {
     text-align:center;
 }
 footer > .disclaimer {
-    font-size: 8px;
+    font-size: 0.5vw;
 }
 footer > .break {
-    border-bottom: 1px solid #acacac;
+    border-bottom: 1px solid #ffffff;
     border-radius: 2px;
+}
+img {
+
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 90%;
+  margin: 20px auto;
 }
