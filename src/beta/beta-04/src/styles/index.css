@@ -1,0 +1,100 @@
+body {
+    --DISPLAY: 'DM Serif Display', serif;
+    --OLDREGULAR: 'Mallanna', sans-serif;
+    --REGULAR: 'Overpass', sans-serif;
+    --HEADING: 'Rubik', sans-serif;
+    --CODE: 'Source Code Pro', monospace;
+    background-color: #A58455;
+    color: #E1D7CB;
+    font-family: var(--REGULAR);
+    padding:0%;
+    margin: 0%;
+    text-align: center;
+    font-size: 2.5vh;
+}
+#title {
+    text-align: center;
+    font-size: 2vw;
+    font-family: var(--HEADING);
+}
+header {
+    padding-top: 0.5vh;
+    padding-left: 0.5vw;
+    padding-bottom: 0.5vh;
+    width: 99.5vw;
+    border-bottom: 0.1px dashed #fff;
+    background-color: #8f6934;
+    display: flex;
+    font-size: 3vh;
+    font-family: var(--MONOSPACE);
+}
+
+#icon-navbar {
+    text-align: left;
+    flex-grow: 2.3;
+}
+
+#links-navbar {
+    text-align: center;
+    flex-grow: 10;
+}
+
+#socials-navbar {
+    text-align: right;
+    flex-grow: 0.1;
+    padding-right: 1.1vw;
+}
+
+header > div > a {
+    color: #E1D7CB;
+    text-decoration: 3px underline #C7B071;
+    padding-left: 1vw;
+
+}
+
+header > div > a:hover {
+    text-decoration: 3px underline;
+}
+
+
+
+.noTextDecoration {
+    text-decoration: none;
+}
+
+.display {
+    font-family: var(--DISPLAY);
+    font-size: 3.5vh;
+}
+
+a {
+    text-decoration: none;
+    color: #A6B188;
+}
+a:hover {
+    text-decoration: underline;
+    color: #A6B188;
+}
+footer {
+    width: 100%;
+    font-size: 1.8vh;
+    height: 20vh;
+    background-color: #8f6934;
+    justify-content: space-around;
+    padding-top: 2vh;
+    display: flex;
+    text-align: left;
+    
+}
+#item-1 {
+    display: flex;
+    text-align: left;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+#item-1-descript {
+    padding-left: 5%;
+}
+footer > div {
+    width: 20%;
+}

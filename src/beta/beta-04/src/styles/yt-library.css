@@ -1,0 +1,85 @@
+body {
+    --NORMAL: 'Mallanna', sans-serif;
+    --MONOSPACE: 'Source Code Pro', monospace;
+    background-color: #212121;
+    color: #fff;
+    font-family: var(--NORMAL);
+    padding:0%;
+    margin: 0%;
+}
+#title {
+    text-align: center;
+    font-size: 2vw;
+}
+header {
+    padding-top: 0.5vh;
+    padding-left: 0.5vw;
+    padding-bottom: 0.5vh;
+    width: 99.5vw;
+    border-bottom: 0.1px dashed #fff;
+    background-color: #2f2f2f;
+    display: flex;
+    font-size: 3vh;
+    font-family: var(--MONOSPACE);
+}
+
+#icon-navbar {
+    text-align: left;
+    flex-grow: 2.3;
+}
+
+#links-navbar {
+    text-align: center;
+    flex-grow: 10;
+}
+
+#socials-navbar {
+    text-align: right;
+    flex-grow: 0.1;
+    padding-right: 1.1vw;
+}
+
+header > div > a {
+    color: #fff;
+    text-decoration: 3px underline #4a4a4a;
+    padding-left: 1vw;
+    border-left: 0.1px dashed #fff;
+
+}
+
+header > div > a:hover {
+    text-decoration: 3px underline;
+}
+
+#final-nav {
+    border-right: 0.1px dashed #fff;
+    padding-right: 1vw;
+
+}
+
+img {
+    border-right: 0.1px dashed #fff;
+    padding-right: 1vw;
+    
+}
+
+.noTextDecoration {
+    text-decoration: none;
+}
+iframe {
+    border: 0px solid #fff;
+    border-radius: 25px;
+    padding-top: 0%;
+    
+}
+#video-box {
+    display: flex;
+    text-align: center;
+    font-size: 1.5vw;
+    padding-left: 12vw;
+}
+.video {
+    padding-left: 3vw;
+    padding-top: 0%;
+
+}
