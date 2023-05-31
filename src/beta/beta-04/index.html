@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&family=Mallanna&family=Overpass:wght@300;400&family=Rubik&family=Source+Code+Pro:wght@400;500&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/2172e4ad38.js" crossorigin="anonymous"></script>
     <link rel="icon" href="src/images/idea3.png">
+    <!--<script src="/src/beta/beta-04/src/js/index.js"></script>-->
 </head>
 <body>
     <header>
@@ -66,10 +67,27 @@
                      leo faucibus vel. Pellentesque rutrum odio risus, vitae aliquet eros mattis ut.
             </div>
         </div>
+        <div id="carousel">
+            <div id="carousel-1" class="carousel-item slide-in">
+                <a href="#carousel-3" onclick="handleLeftClick()">Before</a>
+                item 1
+                <a href="#carousel-2" onclick="handleRightClick()">After</a>
+            </div>
+            <div id="carousel-2" class="carousel-item slide-in" data-index="1" data-status="inactive">
+                <a href="#carousel-3" onclick="handleLeftClick()">Before</a>
+                item 2
+                <a href="#carousel-2" onclick="handleRightClick()">After</a>
+            </div>
+            <div id="carousel-3" class="carousel-item slide-in" data-index="2" data-status="inactive">
+                <a href="#carousel-3" onclick="handleLeftClick()">Before</a>
+                item 3
+                <a href="#carousel-2" onclick="handleRightClick()">After</a>
+            </div>
+        </div>
         <p class="display">
             Now what comes next?
         </p>
-        <p>My test for the footer zat</p>
+        <p>My test for the footer zat is bibg and stuff</p>
     </main>
     <footer>
         <div>
@@ -78,10 +96,14 @@
             <a href="#">Blah</a><br>
             <a href="#">Blah</a><br>
             <a href="#">Blah</a><br>
-            <a href="#willitwork">oh heres a test</a><br>
-            <!--ONLY 6 LINES-->
+            <a onclick="alert('test failed...')">oh heres a test</a><br>
+            <a href="#">Blah</a><br>
+            <a href="#">Blah</a><br>
+            <!--ONLY 8 LINES-->
         </div>
         <div>
+            <a href="#">Blah</a><br>
+            <a href="#">Blah</a><br>
             <a href="#">Blah</a><br>
             <a href="#">Blah</a><br>
             <a href="#">Blah</a><br>
@@ -91,6 +113,8 @@
         </div>
         <div>
             <b>SkibiOS</b><br>
+            <a href="#">Blah</a><br>
+            <a href="#">Blah</a><br>
             <a href="#">Blah</a><br>
             <a href="#">Blah</a><br>
             <a href="#">Blah</a><br>
