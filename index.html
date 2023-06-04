@@ -17,7 +17,7 @@
     </head>
     <body>
         <script href="src/index.js"></script>
-        <h1>
+        <h1 id="title">
             ArchDud3
         </h1>
         <nav>
@@ -34,6 +34,45 @@
                 Youtube library
             </a>
         </nav>
+        
+        <div id="mobile-title-nav">
+            <div id="mobile-title">
+                <h1>ArchDud3</h1>
+            </div>
+            <div id="open-mobile-nav">
+                <a class="nav-item" onclick="mobilenavmenu.showModal()">
+                    <i class="fa-solid fa-bars-staggered"></i>
+                </a>
+            </div>
+            <dialog id="mobilenavmenu">
+                <form>
+                    <button class="nav-item" id="close-mobilenavmenu">
+                        <i class="fa-solid fa-circle-xmark"></i>
+                    </button>
+                </form>
+                <br>
+                <a href="https://github.com/ArchDud3/">
+                    <div class="mobilenavmenu-item" id="mobilenavmenu-item-top">
+                        GitHub
+                    </div>
+                </a>
+                <a href="src/development.html">
+                    <div class="mobilenavmenu-item">
+                        Development
+                    </div>
+                </a>
+                <a href="src/software.html">
+                    <div class="mobilenavmenu-item">
+                        Software
+                    </div>
+                </a>
+                <a href="src/yt-library.html">
+                    <div class="mobilenavmenu-item">
+                        YouTube library
+                    </div>
+                </a>
+            </dialog>
+        </div>
         <p>
             <i>Quod tuum est meum est.</i>
         </p>
@@ -56,7 +95,7 @@
         </div>
         <div id="work-1">
             <div id="work-1-img" class="work-1-item">
-                <img height="250vw" width="auto" src="src/images/GitHub-profile.png">
+                <img height="auto" width="400vw" src="src/images/GitHub-profile.png">
             </div>
             <div id="work-1-descript" class="work-1-item">
                 <p><i class="fa-brands fa-github fa-spin"></i><b>&nbsp; GitHub</b><br>
@@ -99,8 +138,33 @@
                 </p>
             </div>
             <div id="work-2-img" class="work-2-item">
-                <img height="290vh" width="500vw" src="src/images/skibi-long.jpg">
+                <img height="auto" width="400vw" src="src/images/skibi-long.jpg">
             </div>
+        </div>
+        <div id="mobile-work-2">
+            <div id="mobile-work-2-img" class="mobile-work-2-item">
+                <img height="auto" width="400vw" src="src/images/skibi-long.jpg">
+            </div>
+            <div id="mobile-work-2-descript" class="mobile-work-2-item">
+                <p><i class="fa-solid fa-computer fa-spin"></i><b>&nbsp;&nbsp;SkibiOS</b><br>
+                    SkibiOS is an open-source operating system developed by... me! It is free and open-source,
+                    and is hosted on <a href="https://github.com/SkibiOS">GitHub.</a> SkibiOS comes in five different
+                    versions: Regular, ARM, Pro, Minimal and Lite, being a more complex model than linux operating sytems
+                    but still less complex than the Microsoft, with Pro being priced at $2.50 per twenty-five licenses. But
+                    the main feature of SkibiOS is... the anyapp app, which allows you to use an app image from any operating
+                    system (e.g. .exe file) on SkibiOS! It is still in the concept phase, so a lot of ideas are being created and 
+                    removed from this world, but while you are waiting you can check out the official website at <a href="https://skibios.github.io">skibios.github.io.</a>
+                </p>
+                <p class="disclaimer">
+                    This is not a real product (yet) so if someone has copyrighted the name "SkibiOS"<br>
+                    then please let me know through my email at <a href="https://skibioperatingsystem@gmail.com">skibioperatingsystem@gmail.com</a>.<br>
+                    Currently SkibiOS has no license, (or code) but it will be licensed with the<br>
+                    GNU General Public license. And no, none of your data will be kept but <br>
+                    I still have to provide you with a <a href="https://skibios.github.io/src/privacy-policy.html">privacy policy</a> and 
+                    <a href="https://skibios.github.io/src/terms-of-use.html">terms of use.</a>
+                </p>
+            </div>
+            
         </div>
         <br>
         <div class="break">
@@ -110,7 +174,7 @@
         <br>
         <div id="work-3">
             <div id="work-3-img" class="work-3-item">
-                <img height="300vh" width="auto" src="src/images/6mayYTCHANNEL.png">
+                <img height="auto" width="400vw" src="src/images/6mayYTCHANNEL.png">
             </div>
             <div id="work-3-descript" class="work-3-item">
                 <p><i class="fa-brands fa-youtube fa-spin"></i><b>&nbsp;&nbsp;YouTube</b><br>
