@@ -4,19 +4,38 @@
         <title>
             ArchDud3
         </title>
-        <link rel="stylesheet" href="src/styles/index.css">
+        <link rel="stylesheet" href="/src/styles/index.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-        <link rel="icon" href="src/images/idea3.png">
+        <link rel="icon" href="/src/images/idea3.png">
         <link href='https://fonts.googleapis.com/css?family=Cousine' rel='stylesheet'>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script src="https://kit.fontawesome.com/2172e4ad38.js" crossorigin="anonymous"></script>
-        <script href="src/index.js">
+        <script href="/src/index.js">
         </script>
+        <script> 
+            const frontend_api = "https://romantic-drake-2.clerk.accounts.dev";
+            
+            // Create a script that will be loaded asynchronously in 
+            // your page. 
+            const script = document.createElement('script');
+            script.setAttribute('data-clerk-frontend-api', frontend_api);
+            script.async = true;
+            script.src = `https://cdn.jsdelivr.net/npm/@clerk/clerk-js@latest/dist/clerk.browser.js`;
+            script.crossOrigin = "anonymous";
+            // Add a listener so you can initialize ClerkJS
+            // once it's loaded.
+            script.addEventListener('load', async function(){
+                await window.Clerk.load({
+                    // Set load options here...
+                });
+            });
+            document.body.appendChild(script);
+            </script>   
     </head>
     <body>
-        <script href="src/index.js"></script>
+        <script href="/src/index.js"></script>
         <h1 id="title">
             ArchDud3
         </h1>
@@ -24,13 +43,13 @@
             <a class="nav-item" href="https://github.com/ArchDud3/">
                 GitHub
             </a>
-            <a class="nav-item" href="src/development.html">
+            <a class="nav-item" href="/src/development.html">
                 Development
             </a>
-            <a class="nav-item" href="src/software.html">
+            <a class="nav-item" href="/src/software.html">
                 Software
             </a>
-            <a class="nav-item" href="src/yt-library.html">
+            <a class="nav-item" href="/src/yt-library.html">
                 Youtube library
             </a>
         </nav>
@@ -56,17 +75,17 @@
                         GitHub
                     </div>
                 </a>
-                <a href="src/development.html">
+                <a href="/src/development.html">
                     <div class="mobilenavmenu-item">
                         Development
                     </div>
                 </a>
-                <a href="src/software.html">
+                <a href="/src/software.html">
                     <div class="mobilenavmenu-item">
                         Software
                     </div>
                 </a>
-                <a href="src/yt-library.html">
+                <a href="/src/yt-library.html">
                     <div class="mobilenavmenu-item">
                         YouTube library
                     </div>
@@ -95,7 +114,7 @@
         </div>
         <div id="work-1">
             <div id="work-1-img" class="work-1-item">
-                <img height="auto" width="400vw" src="src/images/GitHub-profile.png">
+                <img height="auto" width="400vw" src="/src/images/GitHub-profile.png">
             </div>
             <div id="work-1-descript" class="work-1-item">
                 <p><i class="fa-brands fa-github fa-spin"></i><b>&nbsp; GitHub</b><br>
@@ -138,12 +157,12 @@
                 </p>
             </div>
             <div id="work-2-img" class="work-2-item">
-                <img height="auto" width="400vw" src="src/images/skibi-long.jpg">
+                <img height="auto" width="400vw" src="/src/images/skibi-long.jpg">
             </div>
         </div>
         <div id="mobile-work-2">
             <div id="mobile-work-2-img" class="mobile-work-2-item">
-                <img height="auto" width="400vw" src="src/images/skibi-long.jpg">
+                <img height="auto" width="400vw" src="/src/images/skibi-long.jpg">
             </div>
             <div id="mobile-work-2-descript" class="mobile-work-2-item">
                 <p><i class="fa-solid fa-computer fa-spin"></i><b>&nbsp;&nbsp;SkibiOS</b><br>
@@ -174,7 +193,7 @@
         <br>
         <div id="work-3">
             <div id="work-3-img" class="work-3-item">
-                <img height="auto" width="400vw" src="src/images/6mayYTCHANNEL.png">
+                <img height="auto" width="400vw" src="/src/images/6mayYTCHANNEL.png">
             </div>
             <div id="work-3-descript" class="work-3-item">
                 <p><i class="fa-brands fa-youtube fa-spin"></i><b>&nbsp;&nbsp;YouTube</b><br>
@@ -200,5 +219,14 @@
                 ©2023 ArchDud3 | ©2023 SkibiOS | Special thanks to the resources used in this website
             </p>
         </footer>
+        <script
+            async
+            crossorigin="anonymous"
+            data-clerk-publishable-key="pk_test_cm9tYW50aWMtZHJha2UtMi5jbGVyay5hY2NvdW50cy5kZXYk"
+            onload="window.Clerk.load()"
+            src="https://romantic-drake-2.clerk.accounts.dev/npm/@clerk/clerk-js@4/dist/clerk.browser.js"
+            type="text/javascript">
+        </script>
+        <SignIn/>
     </body>
 </html>

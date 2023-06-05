@@ -46,6 +46,9 @@
         flex-direction:column;
         align-items:center
     }
+    #mobile-work-2 {
+        display: none;
+    }
 
     .nav-item {
         background-color: #212121;
