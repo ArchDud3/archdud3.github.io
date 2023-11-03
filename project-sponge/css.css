@@ -24,9 +24,9 @@ h1 {
 .c {
     text-align: center;
 }
-.foot {
+.foot, .foot > a {
     font-size: 10px;
-    color: #cdcdcd;
+    color: #2c2c2c;
     position: absolute;
     top: 100%;
     transform: translateY(-200%);
