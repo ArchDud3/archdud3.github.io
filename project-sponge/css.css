@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwQIFkq2yFnzTZKVMbD7q5ijoLEz9PWTXqhA&usqp=CAU");
+    background-size: cover;
+    color: #fff;
+    font-family: Tahoma, sans-serif;
+}
+#content {
+    background: linear-gradient(to top, black, rgba(0, 0, 0, 0.93), rgba(0, 0, 0, 0.806), rgba(0, 0, 0, 0.573));
+    height: 100vh;
+    width: 100%;
+}
+#content-blur {
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    backdrop-filter: blur(30px);
+}
+h1 {
+    font-size: 60px;
+    text-align: center;
+    padding-top: calc(25% - 30px);
+}
+.c {
+    text-align: center;
+}
+.foot {
+    font-size: 10px;
+    color: #cdcdcd;
+    position: absolute;
+    top: 100%;
+    transform: translateY(-200%);
+}
